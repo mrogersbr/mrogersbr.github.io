@@ -23,7 +23,7 @@
                 $("#fatura-converted").append(config.newLine)
                 
                 while((match = regex.exec(fatura)) !== null){
-                    $("#fatura-converted").append(match[1] + "," + match[2] + "," + match[3]);                    
+                    $("#fatura-converted").append(match[1] + ";" + match[2] + ";" + match[3]);                    
                     $("#fatura-converted").append(config.newLine);
                 }
                 
