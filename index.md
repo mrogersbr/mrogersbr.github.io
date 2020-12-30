@@ -13,7 +13,7 @@
             config = {};
             config.linePattern = "";
             config.newLine = "\n";
-            config.commonHeaders = "Date,Payee,Value";            
+            config.commonHeaders = "Date;Payee;Value";            
             config.populateMatches = function(fatura){
                 var regex = /(\d*\/\d*)\t(.*)\t(-?[1-9]\d{0,2}(\.\d{3})*,\d{2})/g;
                 var match = null;
